@@ -17,7 +17,7 @@ The webserver code and dependencies can be directly downloaded from the Arduino 
    - Then go to **Tools → Board Manager** and install ESP32.  
    - Then go to **File → Examples → ESP32 → Camera → Camera Web Server**.  
 
-2. **The camera module must be wired to programming mode before it can be programmed.**  
+2. **The camera module must be wired to programming mode before it can be programmed. The green gnd to gpio 0 wire in the schematic is the programming wire. remove after programming.**  
    - Schematic is available in the **Arduino folder**.  
 
 3. **Before programming, set these options in Tools in Arduino IDE:**  
