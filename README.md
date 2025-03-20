@@ -1,6 +1,3 @@
-Here’s your README with proper formatting while keeping all your content unchanged:  
-
-```md
 # BEEDrone Project
 
 ---
