@@ -15,12 +15,9 @@ const char *password = "your password";
 #define PART_BOUNDARY "123456789000000000000987654321"
 
 // This project was tested with the AI Thinker Model, M5STACK PSRAM Model and M5STACK WITHOUT PSRAM
-#define CAMERA_MODEL_AI_THINKER
-//#define CAMERA_MODEL_M5STACK_PSRAM
-//#define CAMERA_MODEL_M5STACK_WITHOUT_PSRAM
+#define CAMERA_MODEL_AI_THINKER // make sure ESP 32 AI Thinker is the camera selected
 
-// Not tested with this model
-//#define CAMERA_MODEL_WROVER_KIT
+
 
 #if defined(CAMERA_MODEL_WROVER_KIT)
   #define PWDN_GPIO_NUM    -1
